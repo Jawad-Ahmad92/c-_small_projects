@@ -4,6 +4,15 @@ class teacher{
 	private:
 		double salary;
 	public:
+		  /*constructor --> 
+		                   there is no return type (eg: no void,int )noting but name his same
+		 class name (like in this cause class name is "teacher")so constructor name his same
+		 teacher and its called automatically */
+		 
+		  teacher(){
+		  	cout<<"hi this is a constructor --> it's automatically call"<<endl;
+		  }
+		  
 	     //proprties/attributes
 	string name;
 	string department;
@@ -39,17 +48,9 @@ int main()
 	t1.subject="object orreinted programming";
 	t1.setsalary(25000);
 	t1.change_department("computer science");
-	      //2nd objecte
-	teacher t2;
-	t2.name="Ali";
-	t2.department="DVM";
-	t2.subject="biology";
-	t2.setsalary(40000);
 	
 	     //display/print
 	t1.display();
-	cout<<"     second teacher info is:"<<endl;
-	t2.display();
 	
 	
 	return 0;
