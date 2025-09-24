@@ -1,3 +1,25 @@
+//Initial Output (always shown first):
+//	Menu:
+//p = Pizza ($15.50)
+//b = Burger ($9.50)
+//c = Chicken ($19.99)
+//r = Bread Stick ($7.20)
+//d = Drinks ($4.15)
+//h = Hotdog ($2.30)
+//E = Exit and show bill
+//
+//Enter item letter: p
+//Enter item letter: b
+//Enter item letter: d
+//Enter item letter: e
+//
+//Exiting order...
+//
+//Number of items: 3
+//Total bill: $29.15
+//Thank you! Enjoy your meal!
+
+
 #include <iostream>
 #include <string>
 using namespace std;
