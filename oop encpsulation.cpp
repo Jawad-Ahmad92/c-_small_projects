@@ -52,7 +52,11 @@ int main() {
     t1.change_department("Computer Science");
 
     // display/print
-    t1.display();
-
+//    t1.display();
+    
+    // copy constructor 
+    
+    teacher t2=t1;
+    t2.display();
     return 0;
 }
